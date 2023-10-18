@@ -24,10 +24,19 @@
 -   배포한 캐니스터 메서드 호출
     `npm run 매핑된명령어`
     -   `npm run canister_call_set_message` : 기본적으로 세팅 되어 있는 메시지 set 명령어
-    -   `npm run canister_call_get_meseage` : 기본적으로 세팅 되어 있는 메시지 get 명령어
+    -   `npm run canister_call_get_message` : 기본적으로 세팅 되어 있는 메시지 get 명령어
 
 ## GitHub commit 방법
 
 -   프로젝트를 세이프 디렉토리로 설정 : `git config --global --add safe.directory '%(prefix)///wsl.localhost/Ubuntu/home/efforthye/icp/programs/canisters'`
+-   만약 user email과 name이 설정되어 있지 않으면 설정하여 준다.
+    -   `git config --global user.email efforthye@gmail.com`
+    -   `git config --global user.name efforthye`
+
+## VSCode 에서 wsl 사용 방법
+
+-   wsl 터미널을 추가하면 간단하게 사용 가능하다. 필요하다면 `source ~/.bashrc` 도 실행하여 준다.
 
 ## VSCode Insiders 설치
+
+-   이미 VSCode가 설치되어 있다면 딱히 새로 설치할 필요는 없다.
