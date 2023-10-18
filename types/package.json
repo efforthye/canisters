@@ -7,7 +7,18 @@
         "canister_deploy_mainnet": "dfx deploy --network ic types",
         "canister_uninstall": "dfx canister uninstall-code types",
         "canister_call_get_message": "dfx canister call types getMessage",
-        "canister_call_set_message": "dfx canister call types setMessage '(\"Hello world!\")'"
+        "canister_call_set_message": "dfx canister call types setMessage '(\"Hello world!\")'",
+        "deploy": "npm run canister_deploy_local",
+        "getBlob": "dfx canister call types getBlob",
+        "getBool": "dfx canister call types getBool",
+        "getEmpty": "dfx canister call types getEmpty",
+        "getFloat32": "dfx canister call types getFloat32",
+        "getFloat64": "dfx canister call types getFloat64",
+        "getBasicFunc": "dfx canister call types getBasicFunc",
+        "getInt": "dfx canister call types getInt",
+        "getInt64": "dfx canister call types getInt64",
+        "getNat": "dfx canister call types getNat",
+        "getNat64": "dfx canister call types getNat64"
     },
     "dependencies": {
         "azle": "^0.18.4"

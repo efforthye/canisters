@@ -1,4 +1,14 @@
 service: () -> {
+    getBasicFunc: () -> (func (text) -> (text) query) query;
+    getBlob: () -> (vec nat8) query;
+    getBool: () -> (bool) query;
+    getEmpty: () -> (empty) query;
+    getFloat32: () -> (float32) query;
+    getFloat64: () -> (float64) query;
+    getInt: () -> (int) query;
+    getInt64: () -> (int64) query;
     getMessage: () -> (text) query;
+    getNat: () -> (nat) query;
+    getNat64: () -> (nat64) query;
     setMessage: (text) -> ();
 }
