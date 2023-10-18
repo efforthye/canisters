@@ -32,6 +32,9 @@
 -   만약 user email과 name이 설정되어 있지 않으면 설정하여 준다.
     -   `git config --global user.email efforthye@gmail.com`
     -   `git config --global user.name efforthye`
+-   git push 할 때, user name과 password를 입력하여 준다.
+    -   user name : efforthye 입력
+    -   password : developer settings 에서 발급한 classic assess token 입력
 
 ## VSCode 에서 wsl 사용 방법
 
