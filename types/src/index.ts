@@ -10,6 +10,7 @@ import {
     int64,
     nat,
     nat64,
+    Null,
     Principal,
     query,
     text,
@@ -105,4 +106,14 @@ export default Canister({
     // 참고 자료 : https://jtiger.notion.site/ICP-f8fe33e01d07450a83b2c8d584e5c1fa#f6d788906dc947d7871c9d4d25b73448
     // 위 자료에서 중요해 보이는 것을 중심적으로 공부해 보자~ 일단 배포 및 메서드 실행 해보기.
     // 특히, 맨 아래 쪽 배포 부분을 제대로 보면 될 것 같음!
+
+    // Null : 캐니스터에서 null을 표현하는 타입이다.
+    getNull: query([], Null, () => {
+        return null;
+    }),
+
+    // text : 문자열 데이터 타입이다.
+    getString: query([], text, () => {
+        return 'Hello world!';
+    }),
 });

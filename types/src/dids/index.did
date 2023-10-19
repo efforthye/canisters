@@ -10,5 +10,7 @@ service: () -> {
     getMessage: () -> (text) query;
     getNat: () -> (nat) query;
     getNat64: () -> (nat64) query;
+    getNull: () -> (null) query;
+    getString: () -> (text) query;
     setMessage: (text) -> ();
 }
