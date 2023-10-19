@@ -1,0 +1,21 @@
+{
+    "canisters": {
+        "icp": {
+            "type": "custom",
+            "main": "src/index.ts",
+            "candid": "src/index.did",
+            "build": "npx azle icp",
+            "wasm": ".azle/icp/icp.wasm",
+            "gzip": true
+        },
+
+        "custom_greeting_frontend": {
+            "dependencies": ["icp"],
+            "frontend": {
+                "entrypoint": "src/custom_greeting_frontend/src/index.html"
+            },
+            "source": ["src/custom_greeting_frontend/assets", "dist/custom_greeting_frontend/"],
+            "type": "assets"
+        }
+    }
+}
