@@ -100,3 +100,10 @@
 ## VSCode Insiders 설치
 
 -   이미 VSCode가 설치되어 있다면 딱히 새로 설치할 필요는 없다.
+
+## 참고할 만한 자료
+- 해커톤 치트 시트 : https://dfinityorg.notion.site/ICP-Hackathon-Cheat-Sheet-b2921239266149de81021412f572351c
+- 에이즐 심플 게임 : https://github.com/maemil/azle-simple-game
+- ICP 실습 : https://jtiger.notion.site/ICP-f8fe33e01d07450a83b2c8d584e5c1fa
+- ICP 코드스테이츠 : https://codestates.notion.site/xICP-1-ABC-daede51b56cf47b58b61e9b16565b063
+- 프론트엔드 레퍼런스 : https://internetcomputer.org/docs/current/developer-docs/frontend/react-frontend
